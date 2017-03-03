@@ -45,6 +45,9 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	text-shadow: 2px 2px #000000;
 }*/
+.address {
+	font-style: normal;
+}
 
 .footer {
   position: absolute;
@@ -52,5 +55,6 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   left: 0;
   margin-top: 5px;
+  padding: 5px;
   text-align: center;
 }
