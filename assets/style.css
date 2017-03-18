@@ -27,24 +27,6 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 12px;
 }
 
-/*#welcome {
-	margin-top: 20px;
-	background-image: url("../assets/images/pillars.jpg");
-    min-height: 250px;
-    background-repeat: no-repeat;
-    background-position: center;*/
-/*    width: 100%;*/
-/*    position: relative;
-}*/
-
-/*.welcome-content {
-	color: #FFFFFF;
-	position: absolute;
-	bottom: 0;
-	text-align: center;
-	width: 100%;
-	text-shadow: 2px 2px #000000;
-}*/
 .address {
 	font-style: normal;
 }
@@ -57,4 +39,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 5px;
   padding: 5px;
   text-align: center;
+}
+
+@media all and (min-width: 768px) {
+
+}
+
+@media all and (max-width: 450px){
+	
 }
