@@ -83,6 +83,10 @@ a {
 	float: left;
 }
 
+.filler {
+	height: 240px;
+}
+
 .center {
 	text-align: center;
 }
@@ -103,6 +107,7 @@ a {
   padding: 5px;
   text-align: center;
   background-color: #FFFFFF;
+  clear: both;
 }
 
 .banner {
@@ -119,6 +124,11 @@ a {
 	vertical-align: middle;
 	line-height: 300px; 
 	background-color: rgba(35,107,142,.3)
+}
+
+.sidebar-picture {
+	padding-top: 100px;
+	padding-left: 30px;
 }
 
 .profile-picture {
@@ -150,6 +160,7 @@ a {
 	.wrapper {
 		width: 100%;
 	}
+
 }
 
 @media all and (max-width: 1000px){
@@ -186,8 +197,21 @@ a {
 		padding-top: 60px;
 	}
 
+	.filler {
+		display: none;
+	}
+
 	.container-contact {
 		z-index: -1;
+	}
+
+	.padding {
+		padding: 12px 40px; 
+	}
+
+	.mobile {
+		display: block;
+		width: 100%;
 	}
 }
 
@@ -224,7 +248,7 @@ a {
 		text-align: center;
 	}
 
-	.mobile {
-		padding: 10px;
+	.sidebar-picture {
+		display: none;
 	}
 }
