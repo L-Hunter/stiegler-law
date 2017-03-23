@@ -55,19 +55,6 @@ a {
 	background-color: #236B8E;
 }
 
-.pure-menu {
-	background-color: #F0F8FF;
-}
-
-.pure-menu a {
-	color: #236B8E;
-}
-
-.pure-menu a:hover {
-	background-color: #236B8E;
-	color: #FFFFFF;
-}
-
 .wrapper {
 	width: 75%;
 	margin: 0 auto;
@@ -81,6 +68,10 @@ a {
 .sidebar {
 	width: 34%;
 	float: left;
+}
+
+.filler {
+	height: 240px;
 }
 
 .center {
@@ -103,6 +94,7 @@ a {
   padding: 5px;
   text-align: center;
   background-color: #FFFFFF;
+  clear: both;
 }
 
 .banner {
@@ -119,6 +111,11 @@ a {
 	vertical-align: middle;
 	line-height: 300px; 
 	background-color: rgba(35,107,142,.3)
+}
+
+.sidebar-picture {
+	padding-top: 100px;
+	padding-left: 30px;
 }
 
 .profile-picture {
@@ -138,7 +135,7 @@ a {
 .content-contact {
 	background-color: rgba(240,248,255,.7);
 	display: inline-block;
-	padding: 5px;
+	padding: 2px;
 	position: absolute;
 	right: 20%;
 	width: 60%;
@@ -146,10 +143,31 @@ a {
 	border-radius: 5px;
 }
 
+.contact-info {
+	float: left;
+	width: 40%;
+	padding-left: 15px;
+}
+
+.contact-form {
+	float: left;
+	width: 56%;
+	padding-left: 15px;
+}
+
 @media all and (max-width: 1270px) {
 	.wrapper {
 		width: 100%;
 	}
+
+	.content-contact {
+		right: 10%;
+		width: 80%;
+	}
+}
+
+@media all and (max-width: 1150px) {
+
 }
 
 @media all and (max-width: 1000px){
@@ -186,8 +204,21 @@ a {
 		padding-top: 60px;
 	}
 
+	.filler {
+		display: none;
+	}
+
 	.container-contact {
 		z-index: -1;
+	}
+
+	.padding {
+		padding: 12px 40px; 
+	}
+
+	.mobile {
+		display: block;
+		width: 100%;
 	}
 }
 
@@ -207,6 +238,14 @@ a {
 		display: block;
 		width: 100%;
 	}
+
+	.contact-info {
+		width: 97%;
+	}
+
+	.contact-form {
+		width: 97%;
+	}
 }
 
 @media all and (max-width: 680px){
@@ -224,7 +263,16 @@ a {
 		text-align: center;
 	}
 
-	.mobile {
-		padding: 10px;
+	.sidebar-picture {
+		display: none;
+	}
+
+	.content-contact {
+		right: 5%;
+		width: 90%;
+	}
+
+	.contact-brand {
+		display: none;
 	}
 }
