@@ -13,18 +13,46 @@ a {
 	text-decoration: none;
 }
 
+.nav {
+	background-color: #F0F8FF;
+}
+
+.nav-bar {
+	list-style: none;
+	background-color: #F0F8FF;
+	margin: 0;
+	font-size: 18px;
+	line-height: 40px;
+	display: inline-block;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 15px;
+}
+
+.nav-item:hover {
+	background-color: #236B8E;
+	color: #FFFFFF;
+}
+
+.nav-right {
+	float: right;
+}
+
+.brand {
+	font-family: 'Cinzel', serif;
+	font-weight: bolder;
+	display: inline-block;
+	font-size: 24px;
+}
+
 .legend {
 	color: #236B8E;
 }
 
 .background {
 	background-color: #236B8E;
-}
-
-.brand {
-	display: inline-block;
-	font-size: 24px;
-
 }
 
 .pure-menu {
@@ -71,10 +99,6 @@ a {
 }
 
 .footer {
-/*  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;*/
   margin-top: 5px;
   padding: 5px;
   text-align: center;
@@ -128,6 +152,44 @@ a {
 	}
 }
 
+@media all and (max-width: 1000px){
+	.nav-bar {
+  		display: block;
+  		line-height: 28px;
+  		width: 100%;
+  		text-align: center;
+  		border-bottom: 1px solid #F0F8FF;
+	}
+
+	.nav-right {
+		float: left;
+		background-color: #236B8E;
+		z-index: 2;
+		border: 1px solid #236B8E;
+	}
+
+	.nav-right a {
+		color: #FFFFFF;
+	}
+
+	.right-nav-item:hover {
+		background-color: #F0F8FF;
+		color: #236B8E;
+		/*border: 1px solid #236B8E;*/
+	}
+
+	.nav-bar {
+    	display: inline-block;
+	}
+
+	.wrapper {
+		padding-top: 60px;
+	}
+
+	.container-contact {
+		z-index: -1;
+	}
+}
 
 @media all and (max-width: 950px) {
 
@@ -154,6 +216,12 @@ a {
 
 	.banner-text {
 		display:none;
+	}
+}
+
+@media all and (max-width: 500px){
+	.wrapper {
+		text-align: center;
 	}
 
 	.mobile {
