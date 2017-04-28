@@ -104,6 +104,7 @@ a {
   text-align: center;
   background-color: #FFFFFF;
   clear: both;
+  font-size: 14px;
 }
 
 .new-banner {
@@ -213,10 +214,10 @@ a {
     	display: inline-block;
 	}
 
-	.wrapper {
+/*	.wrapper {
 		padding-top: 60px;
 	}
-
+*/
 	.filler {
 		display: none;
 	}
@@ -272,9 +273,9 @@ a {
 }
 
 @media all and (max-width: 500px){
-	.wrapper {
+/*	.wrapper {
 		text-align: center;
-	}
+	}*/
 
 	.sidebar-picture {
 		display: none;
