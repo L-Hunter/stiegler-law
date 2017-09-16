@@ -17,6 +17,10 @@ a {
 	text-decoration: none;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 .nav {
 	background-color: #F0F8FF;
 }
